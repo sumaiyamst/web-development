@@ -106,3 +106,148 @@
 	margin-top:-50px;
 	
 }
+.section-head{
+	margin-top:100px;
+}
+.section-head .sectiion-head1{
+	display:grid;
+	grid-template-columns:auto auto;
+	max-width:1200px;
+	position:relative;
+	left:40px;
+	gap:150px;
+}
+.section-head .sectiion-head1 .sectiion-head2 h2{
+	font-size:40px;
+}
+.section-head .sectiion-head1 .border-line{
+	background-color:gray;
+	height:3px;
+	width:200px;
+	margin-top:30px;
+	position:relative;
+
+}
+.section-head .sectiion-head1 .border-line::after{
+	content:" ";
+	position:absolute;
+	width:100px;
+	border-left:2px solid blue;
+	opacity:1;
+	
+	
+}
+.section-head .sectiion-head1 .sectiion-head2 p{
+	text-align:justify;
+	margin-top:40px;
+	font-size:30px;
+	
+}
+.section-head img{
+	background-color:blue;
+	margin-right:-100px;
+}
+.section-head button{
+	height:35px;
+	width:200px;
+	margin-left:50px;
+	margin-top:50px;
+	background-color:#e7e0e0;
+	border-radius:20px;
+	border:none;
+	font-size:20px;
+	
+}
+.text-center{
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	margin-top:80px;
+}
+.text-center h2{
+	font-size:40px;
+}
+.text-center p{
+	text-align:center;
+	color:gray;
+	font-size:22px;
+	margin-top:15px;
+}
+.text-center .line-art{
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	width:200px;
+	height:1.5px;
+	background-color:gray;
+	margin-top:35px;
+	margin-left:250px;
+	margin:relative;
+	
+}
+.text-center .line-art img{
+	margin-top:-14px;
+	
+}
+.icon1{
+	display:grid;
+	max-width:1200px;
+	grid-template-columns:auto auto auto auto;
+	gap:100px;
+	margin-top:170px;
+	margin-left:100px;
+}
+.icon1 .service-item .icon{
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	
+	
+}
+.icon1 .service-item h3{
+	display:grid;
+	justify-content:center;
+	align-items:center;
+	margin-top:20px;
+	font-size:25px;
+}
+.icon1 .service-item p{
+	text-align:center;
+	margin-top:20px;
+	font-size:18px;
+	color:gray;
+}
+.section-head3 h2{
+	margin-left:50px;
+	font-size:35px;
+	margin-top:90px;
+}
+.flex-img{
+	display:grid;
+	max-width:1200px;
+	grid-template-columns:auto auto auto;
+	gap:100px;
+}
+.flex-img img{
+	height:500px;
+	width:300px;
+	margin-top:50px;
+	margin-left:70px;
+	background-color:#ddd8d8;
+	position:relative;
+	z-index:-1;
+}
+.flex-img .info{
+	font-size:25px;
+	height:100px;
+	background-color:blue;
+	color:white;
+	margin-left:70px;
+	margin-top:-105px;
+	z-index:1;
+	transition:all .5s eade-in-out;
+}
+.flex-img img:hover .info{
+	margin-top:40px;
+	z-index:1;
+}
